@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E1C0282DCFEE56E1AB0BCEF /* Pods_TubiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3145444ECBB262D31F940FA /* Pods_TubiTest.framework */; };
+		A9F288872218C299002F3830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F288862218C299002F3830 /* AppDelegate.swift */; };
+		A9F288892218C299002F3830 /* VideoFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F288882218C299002F3830 /* VideoFeedViewController.swift */; };
+		A9F2888C2218C299002F3830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2888A2218C299002F3830 /* Main.storyboard */; };
+		A9F2888E2218C29A002F3830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F2888D2218C29A002F3830 /* Assets.xcassets */; };
+		A9F288912218C29A002F3830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2888F2218C29A002F3830 /* LaunchScreen.storyboard */; };
+		A9F2889C2218C29A002F3830 /* TubiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2889B2218C29A002F3830 /* TubiTestTests.swift */; };
+		A9F288AA2218C317002F3830 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F288A92218C317002F3830 /* NetworkManager.swift */; };
+		A9F288AC2218C329002F3830 /* VideoFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F288AB2218C329002F3830 /* VideoFeedModel.swift */; };
+		A9F288B02218C36C002F3830 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F288AF2218C36C002F3830 /* VideoDetailViewController.m */; };
+		A9F288B22218C375002F3830 /* VideoDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F288B12218C375002F3830 /* VideoDetailViewController.storyboard */; };
+		A9F288B52218C510002F3830 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F288B42218C510002F3830 /* VideoModel.swift */; };
+		A9F288B72218C70B002F3830 /* VideoFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F288B62218C70B002F3830 /* VideoFeedCollectionViewCell.swift */; };
+		A9F288B92218D219002F3830 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F288B82218D219002F3830 /* Constants.swift */; };
+		A9F288BD221901D3002F3830 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = A9F288BC221901D3002F3830 /* testData.json */; };
+		A9F288BE22190216002F3830 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = A9F288BC221901D3002F3830 /* testData.json */; };
+		D000A0AB42427E603ED42A2B /* Pods_TubiTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD95790E8CDBB88E7DA51A2 /* Pods_TubiTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F288982218C29A002F3830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F2887B2218C299002F3830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F288822218C299002F3830;
+			remoteInfo = TubiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33C5EE974BD71D8736E9659C /* Pods-TubiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TubiTest/Pods-TubiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		69EAD87B6454CCB375265B1F /* Pods-TubiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TubiTestTests/Pods-TubiTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		90C9E9F3A90BB2F2F4843C80 /* Pods-TubiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TubiTestTests/Pods-TubiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A858E6C4B03B27CB69CC0033 /* Pods-TubiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TubiTest/Pods-TubiTest.release.xcconfig"; sourceTree = "<group>"; };
+		A9F288832218C299002F3830 /* TubiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TubiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F288862218C299002F3830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9F288882218C299002F3830 /* VideoFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedViewController.swift; sourceTree = "<group>"; };
+		A9F2888B2218C299002F3830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9F2888D2218C29A002F3830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F288902218C29A002F3830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9F288922218C29A002F3830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F288972218C29A002F3830 /* TubiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TubiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F2889B2218C29A002F3830 /* TubiTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubiTestTests.swift; sourceTree = "<group>"; };
+		A9F2889D2218C29A002F3830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F288A92218C317002F3830 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A9F288AB2218C329002F3830 /* VideoFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedModel.swift; sourceTree = "<group>"; };
+		A9F288AD2218C36C002F3830 /* TubiTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TubiTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9F288AE2218C36C002F3830 /* VideoDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		A9F288AF2218C36C002F3830 /* VideoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		A9F288B12218C375002F3830 /* VideoDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideoDetailViewController.storyboard; sourceTree = "<group>"; };
+		A9F288B42218C510002F3830 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		A9F288B62218C70B002F3830 /* VideoFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9F288B82218D219002F3830 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A9F288BC221901D3002F3830 /* testData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testData.json; sourceTree = "<group>"; };
+		E3145444ECBB262D31F940FA /* Pods_TubiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TubiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD95790E8CDBB88E7DA51A2 /* Pods_TubiTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TubiTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F288802218C299002F3830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1C0282DCFEE56E1AB0BCEF /* Pods_TubiTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F288942218C29A002F3830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D000A0AB42427E603ED42A2B /* Pods_TubiTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C32C77433FF3B0F9486D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33C5EE974BD71D8736E9659C /* Pods-TubiTest.debug.xcconfig */,
+				A858E6C4B03B27CB69CC0033 /* Pods-TubiTest.release.xcconfig */,
+				90C9E9F3A90BB2F2F4843C80 /* Pods-TubiTestTests.debug.xcconfig */,
+				69EAD87B6454CCB375265B1F /* Pods-TubiTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9F2887A2218C299002F3830 = {
+			isa = PBXGroup;
+			children = (
+				A9F288852218C299002F3830 /* TubiTest */,
+				A9F2889A2218C29A002F3830 /* TubiTestTests */,
+				A9F288842218C299002F3830 /* Products */,
+				57C32C77433FF3B0F9486D7F /* Pods */,
+				DBC4DE179B250F13BD416222 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F288842218C299002F3830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F288832218C299002F3830 /* TubiTest.app */,
+				A9F288972218C29A002F3830 /* TubiTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F288852218C299002F3830 /* TubiTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9F288B32218C4C8002F3830 /* Models */,
+				A9F288A82218C2FE002F3830 /* Managers */,
+				A9F288A72218C2E0002F3830 /* VideoDetail */,
+				A9F288A62218C2C6002F3830 /* VideoFeed */,
+				A9F288862218C299002F3830 /* AppDelegate.swift */,
+				A9F2888D2218C29A002F3830 /* Assets.xcassets */,
+				A9F288AD2218C36C002F3830 /* TubiTest-Bridging-Header.h */,
+				A9F2888F2218C29A002F3830 /* LaunchScreen.storyboard */,
+				A9F288922218C29A002F3830 /* Info.plist */,
+			);
+			path = TubiTest;
+			sourceTree = "<group>";
+		};
+		A9F2889A2218C29A002F3830 /* TubiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2889B2218C29A002F3830 /* TubiTestTests.swift */,
+				A9F2889D2218C29A002F3830 /* Info.plist */,
+				A9F288BC221901D3002F3830 /* testData.json */,
+			);
+			path = TubiTestTests;
+			sourceTree = "<group>";
+		};
+		A9F288A62218C2C6002F3830 /* VideoFeed */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2888A2218C299002F3830 /* Main.storyboard */,
+				A9F288882218C299002F3830 /* VideoFeedViewController.swift */,
+				A9F288AB2218C329002F3830 /* VideoFeedModel.swift */,
+				A9F288B62218C70B002F3830 /* VideoFeedCollectionViewCell.swift */,
+			);
+			path = VideoFeed;
+			sourceTree = "<group>";
+		};
+		A9F288A72218C2E0002F3830 /* VideoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A9F288AE2218C36C002F3830 /* VideoDetailViewController.h */,
+				A9F288AF2218C36C002F3830 /* VideoDetailViewController.m */,
+				A9F288B12218C375002F3830 /* VideoDetailViewController.storyboard */,
+			);
+			path = VideoDetail;
+			sourceTree = "<group>";
+		};
+		A9F288A82218C2FE002F3830 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A9F288A92218C317002F3830 /* NetworkManager.swift */,
+				A9F288B82218D219002F3830 /* Constants.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A9F288B32218C4C8002F3830 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9F288B42218C510002F3830 /* VideoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBC4DE179B250F13BD416222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3145444ECBB262D31F940FA /* Pods_TubiTest.framework */,
+				FAD95790E8CDBB88E7DA51A2 /* Pods_TubiTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F288822218C299002F3830 /* TubiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F288A02218C29A002F3830 /* Build configuration list for PBXNativeTarget "TubiTest" */;
+			buildPhases = (
+				B83D9F4CC09F650DD310C59C /* [CP] Check Pods Manifest.lock */,
+				A9F2887F2218C299002F3830 /* Sources */,
+				A9F288802218C299002F3830 /* Frameworks */,
+				A9F288812218C299002F3830 /* Resources */,
+				12ED1CB32ED3E7F49D43B402 /* [CP] Embed Pods Frameworks */,
+				4028DFB17DBA86BCC48559B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TubiTest;
+			productName = TubiTest;
+			productReference = A9F288832218C299002F3830 /* TubiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F288962218C29A002F3830 /* TubiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F288A32218C29A002F3830 /* Build configuration list for PBXNativeTarget "TubiTestTests" */;
+			buildPhases = (
+				952CF86931B299574C1C5513 /* [CP] Check Pods Manifest.lock */,
+				A9F288932218C29A002F3830 /* Sources */,
+				A9F288942218C29A002F3830 /* Frameworks */,
+				A9F288952218C29A002F3830 /* Resources */,
+				6F68492AF7A4E729F901B847 /* [CP] Embed Pods Frameworks */,
+				D2EAA0F89C41A488E0E8C062 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F288992218C29A002F3830 /* PBXTargetDependency */,
+			);
+			name = TubiTestTests;
+			productName = TubiTestTests;
+			productReference = A9F288972218C29A002F3830 /* TubiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F2887B2218C299002F3830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Denis Kalashnikov";
+				TargetAttributes = {
+					A9F288822218C299002F3830 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					A9F288962218C29A002F3830 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A9F288822218C299002F3830;
+					};
+				};
+			};
+			buildConfigurationList = A9F2887E2218C299002F3830 /* Build configuration list for PBXProject "TubiTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F2887A2218C299002F3830;
+			productRefGroup = A9F288842218C299002F3830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F288822218C299002F3830 /* TubiTest */,
+				A9F288962218C29A002F3830 /* TubiTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F288812218C299002F3830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F288B22218C375002F3830 /* VideoDetailViewController.storyboard in Resources */,
+				A9F288912218C29A002F3830 /* LaunchScreen.storyboard in Resources */,
+				A9F288BE22190216002F3830 /* testData.json in Resources */,
+				A9F2888E2218C29A002F3830 /* Assets.xcassets in Resources */,
+				A9F2888C2218C299002F3830 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F288952218C29A002F3830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F288BD221901D3002F3830 /* testData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12ED1CB32ED3E7F49D43B402 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TubiTest/Pods-TubiTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TubiTest/Pods-TubiTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4028DFB17DBA86BCC48559B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TubiTest/Pods-TubiTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F68492AF7A4E729F901B847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TubiTestTests/Pods-TubiTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		952CF86931B299574C1C5513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TubiTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83D9F4CC09F650DD310C59C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TubiTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EAA0F89C41A488E0E8C062 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TubiTestTests/Pods-TubiTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F2887F2218C299002F3830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F288AA2218C317002F3830 /* NetworkManager.swift in Sources */,
+				A9F288B52218C510002F3830 /* VideoModel.swift in Sources */,
+				A9F288892218C299002F3830 /* VideoFeedViewController.swift in Sources */,
+				A9F288872218C299002F3830 /* AppDelegate.swift in Sources */,
+				A9F288B02218C36C002F3830 /* VideoDetailViewController.m in Sources */,
+				A9F288AC2218C329002F3830 /* VideoFeedModel.swift in Sources */,
+				A9F288B72218C70B002F3830 /* VideoFeedCollectionViewCell.swift in Sources */,
+				A9F288B92218D219002F3830 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F288932218C29A002F3830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F2889C2218C29A002F3830 /* TubiTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F288992218C29A002F3830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F288822218C299002F3830 /* TubiTest */;
+			targetProxy = A9F288982218C29A002F3830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9F2888A2218C299002F3830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F2888B2218C299002F3830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F2888F2218C29A002F3830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F288902218C29A002F3830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F2889E2218C29A002F3830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9F2889F2218C29A002F3830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F288A12218C29A002F3830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C5EE974BD71D8736E9659C /* Pods-TubiTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7H5U6SG32;
+				INFOPLIST_FILE = TubiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deniskalashnikov.TubiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TubiTest/TubiTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F288A22218C29A002F3830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A858E6C4B03B27CB69CC0033 /* Pods-TubiTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7H5U6SG32;
+				INFOPLIST_FILE = TubiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deniskalashnikov.TubiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TubiTest/TubiTest-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9F288A42218C29A002F3830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C9E9F3A90BB2F2F4843C80 /* Pods-TubiTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7H5U6SG32;
+				INFOPLIST_FILE = TubiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deniskalashnikov.TubiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TubiTest.app/TubiTest";
+			};
+			name = Debug;
+		};
+		A9F288A52218C29A002F3830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EAD87B6454CCB375265B1F /* Pods-TubiTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7H5U6SG32;
+				INFOPLIST_FILE = TubiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deniskalashnikov.TubiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TubiTest.app/TubiTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F2887E2218C299002F3830 /* Build configuration list for PBXProject "TubiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F2889E2218C29A002F3830 /* Debug */,
+				A9F2889F2218C29A002F3830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F288A02218C29A002F3830 /* Build configuration list for PBXNativeTarget "TubiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F288A12218C29A002F3830 /* Debug */,
+				A9F288A22218C29A002F3830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F288A32218C29A002F3830 /* Build configuration list for PBXNativeTarget "TubiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F288A42218C29A002F3830 /* Debug */,
+				A9F288A52218C29A002F3830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F2887B2218C299002F3830 /* Project object */;
+}
